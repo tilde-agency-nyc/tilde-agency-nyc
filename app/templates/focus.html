@@ -1,13 +1,56 @@
 <style>
 		
-	p {    color: white;
-    position: fixed;
-    top: 0;
-    left: 30%;
-    top: 7%;
-    font-size: 3.3em;
-    font-family: sans-serif;
-    width: 60%;}
 
+
+p.title {position: fixed}	
+p {    color: white;
+
+top: 0;
+left: 30%;
+top: 7%;
+font-size: 3.3em;
+font-family: sans-serif;
+width: 60%;}
+
+p.body {
+text-align: center;
+width: 80%;
+margin-left: 10%;
+font-size: 2em;
+font-family: verdana;
+}
+
+.blink {border-left: 1px;
+animation: blinker2 2.7s linear infinite;
+}
+span.sans {font-family: serif;}
+@keyframes blinker2 {  
+50% { opacity: 0.0; color: red; }
+}
+
+.body a {
+color: #EA9C0C;
+}
+
+.visited-list {
+	    text-align: center;
+    margin-top: 40px;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
 </style>
-<p> ::FOCUS <span class="blink">/</span> AGENCY </p>
+<p class="title"> ::FOCUS <span class="blink">/</span> AGENCY </p>
+
+<p class="body">
+Look for our stage enviroments 2017 to build your orginization
+<ul class="visited-list">
+<li><a href="http://stage.email">stage.email</a></li>
+<li><a href="http://stage.exchange">stage.exchange</a></li>
+<li><a href="http://stage.legal">stage.legal</a></li>
+<li><a href="http://stage.lgbt">stage.lgbt</a></li>
+<li><a href="http://stage.cafe">stage.cafe</a></li>
+<li><a href="http://stage.healthcare">stage.healthcare</a></li>
+<li><a href="http://stage.zone">stage.zone</a></li>
+<li><a href="http://stage.ltda">stage.ltda</a></li>
+</ul>
+</p>
