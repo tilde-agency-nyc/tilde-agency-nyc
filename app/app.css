@@ -71,6 +71,12 @@ html {
   background-color: black;
 }
 
+/* line 10, sass/partials/_global.sass */
+.mailto-pollen {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
 /* line 3, sass/partials/_nav.sass */
 .logo-nav {
   width: 6%;
@@ -99,9 +105,10 @@ footer {
   bottom: 0;
   width: 100%;
   color: #eeeeee;
+  text-align: center;
 }
 
-/* line 9, sass/partials/_footer.sass */
+/* line 10, sass/partials/_footer.sass */
 footer a {
   color: #eeeeee;
   text-decoration: none;
